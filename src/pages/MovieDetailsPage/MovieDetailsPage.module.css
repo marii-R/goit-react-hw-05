@@ -1,0 +1,68 @@
+.backBtn {
+    display: inline-block;
+    margin: 1rem 0;
+    color: #0b5ed7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.poster {
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.containerInfo {
+    flex: 1;
+    min-width: 280px;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.movieInfo {
+    list-style: none;
+    padding: 0;
+}
+
+.listItem {
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+}
+
+.movieListLink {
+    margin-top: 2rem;
+}
+
+.movieListLink h2 {
+    margin-bottom: 0.5rem;
+}
+
+.listLink {
+    display: inline-block;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.listLink:hover {
+    color: #0b5ed7;
+}
+
+
+.moviesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0;
+}

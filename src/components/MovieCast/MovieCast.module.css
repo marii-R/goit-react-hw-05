@@ -1,0 +1,37 @@
+.container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    text-align: center;
+    border-radius: 12px;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.text {
+    margin-top: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #666;
+}

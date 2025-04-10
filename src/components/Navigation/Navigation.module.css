@@ -1,0 +1,30 @@
+
+.nav {
+    background-color:blueviolet;
+    padding: 10px 20px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    color:bisque;
+    font-weight: 500;
+    transition: color 0.2s ease-in-out;
+}
+
+.link:hover {
+    color: blue;
+}
+
+.active {
+    color: blue;
+    font-weight: 600;
+    border-bottom: 2px solid blue;
+}

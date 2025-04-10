@@ -1,0 +1,33 @@
+.container {
+    padding: 20px;
+    background-color: #42403c;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item {
+    padding: 15px;
+    background: white;
+    border-radius: 12px;
+    border-left: 4px solid #162adf;
+}
+
+.name {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.5;
+}
